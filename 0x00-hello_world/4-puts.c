@@ -4,8 +4,8 @@
  * main: entry point
  * description: using the main function 
  * puts: a standard output function to print out a line of string literal
- * description: to print out "Programming is like building a multilingual puzzle"
- * return: returns 0
+ * this program prints out "Programming is like building a multilingual puzzle
+ * Return: 0
  */
 
 int main(void)
