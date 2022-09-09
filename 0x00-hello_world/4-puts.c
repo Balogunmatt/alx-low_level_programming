@@ -2,6 +2,7 @@
 
 /**
  * main: entry point
+ *
  * description: using the main function 
  * puts: a standard output function to print out a line of string literal
  * this program prints out "Programming is like building a multilingual puzzle
@@ -10,6 +11,6 @@
 
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
