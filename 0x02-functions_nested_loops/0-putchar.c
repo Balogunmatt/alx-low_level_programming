@@ -1,13 +1,12 @@
 #include "main.h"
 
-
 /**
  * main - entry point
  *
  * Description: using the _putchar function
  * Return: 0 on success
+ * On error, -1
  */
-
 
 int main(void)
 {
