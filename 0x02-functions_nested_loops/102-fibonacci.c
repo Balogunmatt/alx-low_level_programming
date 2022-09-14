@@ -16,9 +16,8 @@ int main(void)
 
 	for (n = 1; n <= 50; n++)
 	{
+		printf("%d, \n", a);
 		result = a + b;
-		printf("%d, %d, %d, ", a, b, result);
-		printf("\n");
 		a = b;
 		b = result;
 	}
