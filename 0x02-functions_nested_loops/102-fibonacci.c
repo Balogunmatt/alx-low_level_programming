@@ -17,9 +17,10 @@ int main(void)
 	for (n = 1; n <= 50; n++)
 	{
 		result = a + b;
+		printf("%d, %d, %d, ", a, b, result);
+		printf("\n");
 		a = b;
 		b = result;
 	}
-	printf("%d\n", result);
 	return (0);
 }
