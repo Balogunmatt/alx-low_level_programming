@@ -16,10 +16,11 @@ int main(void)
 
 	for (n = 1; n <= 50; n++)
 	{
-		printf("%d, \n", a);
+		printf("%d, ", a);
 		result = a + b;
 		a = b;
 		b = result;
 	}
+	printf("\n");
 	return (0);
 }
