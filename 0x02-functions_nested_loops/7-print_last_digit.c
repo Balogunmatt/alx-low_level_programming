@@ -7,9 +7,9 @@
  * Return: the last digit on success
  */
 
-int print_last_digit(int)
+int print_last_digit(int c)
 {
-	int c, n = c % 10;
+	int n = c % 10;
 
 	if (n < 10)
 		return (n);
