@@ -3,7 +3,7 @@
 
 
 /**
- * print_rev - print string in reverse 
+ * print_rev - print string in reverse
  * @s: string pointer
  *
  * Return: void
