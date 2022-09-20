@@ -20,6 +20,6 @@ void rev_string(char *s)
 		_putchar(*(s + r));
 		r--;
 	}
-	_putchar(*s);
+	*s = *(s + r);
 	_putchar('\n');
 }
