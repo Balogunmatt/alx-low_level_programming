@@ -19,11 +19,9 @@ char *_strcat(char *dest, char *src)
 	len2 = 0;
 
 	while (dest[i] != '\0')
-		len1++;
-	while (src[i] != '\0')
-		len2++;
+		len1++
 	
-	for (i = 0; i <= len2; i++)
+	for (i = 0; src[i]; i++)
 	{
 		dest[len1 + i] = src[i];
 	}
