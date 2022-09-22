@@ -7,7 +7,7 @@
  * @dest: destination string
  * @src: source string
  *
- * Return: char
+ * Return: @dest
  */
 
 
@@ -19,10 +19,12 @@ char *_strcat(char *dest, char *src)
 	len2 = 0;
 
 	while (dest[i] != '\0')
-		len1++
+		len1++;
+	while (src[i] != '\0')
+		len2++;
 	
-	for (i = 0; src[i]; i++)
-		dest[len1++] = src[i];
+	for (i = 0; i <= len2; i++)
+		dest[len1 + i] = src[i];
 	
 	return (dest);
 }
