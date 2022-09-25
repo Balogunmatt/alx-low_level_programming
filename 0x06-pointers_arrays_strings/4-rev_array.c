@@ -13,11 +13,11 @@ void reverse_array(int *a, int n)
 {
 	int i, ch;
 
-	for (i = n - 1; i > n/2; i--)
+	for (i = 0; i < n/2; i++)
 	{
-		ch = a[n - 1 - i];
-		a[n - 1 - i] = a[i];
-		a[i] = ch;
+		ch = a[i];
+		a[i] = a[n - 1 - i];
+		a[n - 1 - i] = ch;
 	}
 	printf("%d\n", a);
 }
