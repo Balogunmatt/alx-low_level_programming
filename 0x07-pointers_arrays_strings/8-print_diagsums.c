@@ -22,7 +22,7 @@ void print_diagsums(int *a, int size)
 				sum1 += *(a[i][j]);
 		}
 	}
-	printf("%d, ", sum1);
+	
 	for (i = size - 1; i >= 0; i--)
 	{
 		for (j = 0; j < size; j++)
@@ -31,5 +31,5 @@ void print_diagsums(int *a, int size)
 				sum2 += *(a[i][j]);
 		}
 	}
-	printf("%d\n", sum2);
+	printf("%d, %d\n", sum1, sum2);
 }
