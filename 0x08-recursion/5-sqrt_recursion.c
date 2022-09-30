@@ -10,16 +10,16 @@
 
 int _sqrt_recursion(int n)
 {
-	int i = 1;
+	int i;
 
 
-	if ( i * i == n)
-		return (i);
-	else if (i == n  && i * i != n)
-		return (-1);
-	else
+	for (i = 1; i <= n; i++)
 	{
-		i++;
-		_sqrt_recursion(n);
+		if (i * i == n)
+			return (i);
+		else if (i == n && i * i != n)
+			return (-1);
+		else
+			return (_sqrt_recursion(n));
 	}
 }
