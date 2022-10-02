@@ -3,7 +3,7 @@
 /**
  * main - entry point
  * @argc: number of arguments
- * @argv: array of string arguments
+ * @argv[]: array of string arguments
  *
  * Return: 0 on success
  */
