@@ -10,12 +10,16 @@
 
 int main(int argc __attribute__((unused)), char *argv[])
 {
-	char result;
+	int result, num1, num2;
+	
 
-	result = argv[1] * argv[2];
-	if (!argv[1] && !argv[2])
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[2]);
+
+	result = num1 * num2;
+	if (argc != 3)
 	{
-		printf("Error");
+		printf("Error\n");
 		return (1);
 	}
 	else
