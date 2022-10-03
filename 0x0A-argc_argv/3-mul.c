@@ -8,7 +8,7 @@
  * Return: 1 and result on success
  */
 
-int main(int argc __attribute__((unused)), int *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
 	int result;
 
