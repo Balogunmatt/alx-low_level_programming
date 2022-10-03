@@ -10,7 +10,7 @@
 
 int main(int argc __attribute__((unused)), char *argv[])
 {
-	int result;
+	char result;
 
 	result = argv[1] * argv[2];
 	if (!argv[1] && !argv[2])
@@ -19,5 +19,5 @@ int main(int argc __attribute__((unused)), char *argv[])
 		return (1);
 	}
 	else
-		printf("%d\n", result);
+		printf("%s\n", result);
 }
