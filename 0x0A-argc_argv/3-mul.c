@@ -2,8 +2,7 @@
 
 /**
  * _atoi- entry point
- * @argc: number of arguments
- * @argv: pointer array
+ * @s: a string pointer array
  *
  * Return: 1 and result on success
  */
